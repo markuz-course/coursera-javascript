@@ -76,15 +76,17 @@ h1 {
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-4 {
+
+
+  .col-md-12 {
+    width: 100%;
     float: left;
-    width: 33.33%;
   }
 
   .title-box {
     float: right;
     position: relative;
-    top: 0px;
+    top: 10px;
     left: 26px;
   }
 }
@@ -92,13 +94,8 @@ h1 {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-  .col-md-6,
   .col-md-12 {
     float: left;
-  }
-
-  .col-md-6 {
-    width: 50%;
   }
 
   .col-md-12 {
@@ -108,7 +105,7 @@ h1 {
   .title-box {
     float: right;
     position: relative;
-    top: 0px;
+    top: 10px;
     left: 26px;
   }
 }
@@ -123,7 +120,7 @@ h1 {
     margin-right: 30px;
     float: right;
     position: relative;
-    top: 0px;
+    top: 10px;
     left: 20px;
   }
 }
